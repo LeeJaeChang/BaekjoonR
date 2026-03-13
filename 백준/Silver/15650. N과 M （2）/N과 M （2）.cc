@@ -4,7 +4,6 @@ using namespace std;
 
 int visited[10];
 int result[10];
-int first;
 int N, M;
 
 void dfs(int count,int key){
@@ -32,3 +31,4 @@ int main(){
     dfs(0,1);
     
 }
+
